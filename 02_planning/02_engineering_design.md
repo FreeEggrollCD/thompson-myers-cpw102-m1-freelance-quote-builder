@@ -32,3 +32,6 @@ Total estimate: final_cost
 ## Functions
 
 *Describe `main()` and at least one calculation function. For each, give its name, purpose, parameters, and returned result (or none).*
+`main()` declares out variables and calls the calculation functions.
+`laborCost()` takes two arguments, `rate` and `hours` and returns their product.
+`totalCost()` takes three arguments, `rate`, `hours`, and `expenses` and returns a float using the equation `rate*hours+expenses`
