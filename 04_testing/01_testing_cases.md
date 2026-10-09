@@ -19,15 +19,27 @@ Enter:
 - Hourly rate: `30`
 - Direct expenses: `15`
 
-**Expected labor cost and total:**
+**Expected labor cost and total:**  
+Labor cost: `$120.00`  
+Total: `$135.00`
 
 **Evidence (paste your terminal run):**
 
 ```text
+Client Name: Alex Taylor
+Hours Worked: 4
+Hourly Rate: 30
+Direct Expenses: 15
 
+PROJECT ESTIMATE
+Client Name: Alex Taylor
+Labor Cost: $120.00
+Direct Expenses: $15.00
+Total Esitmate: $135.00
 ```
 
 **Pass / Fail and why:**
+Test passed as the output matches the expected values.
 
 ## Case 2: Partial hours and text cleanup
 
@@ -40,14 +52,24 @@ Enter:
 
 The displayed name should be `Alex Taylor` without surrounding spaces.
 
-**Expected labor cost and total:**
+**Expected labor cost and total:**  
+Labor cost: `$75.00`  
+Total: `$75.00`
 
 **Evidence (paste your terminal run):**
 
 ```text
+Client Name:   aLEX tAYLOR  
+Hours Worked: 2.5
+Hourly Rate: 30
+Direct Expenses: 0
 
+PROJECT ESTIMATE
+Client Name: Alex Taylor
+Labor Cost: $75.00
+Direct Expenses: $0.00
+Total Esitmate: $75.00
 ```
 
 **Pass / Fail and why:**
-
-If a case fails, fix the program and add evidence of the rerun below that case.
+Test passed as the output matches the expected values.
