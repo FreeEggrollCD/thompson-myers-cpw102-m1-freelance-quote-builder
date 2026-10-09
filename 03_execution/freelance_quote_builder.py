@@ -15,7 +15,7 @@ def main():
     total:float = totalCost(rate, hours, expenses)
 
     # output
-    print("PROJECT ESTIMATE")
+    print("\nPROJECT ESTIMATE")
     print(f"Client Name: {client_name}")
     print(f"Labor Cost: ${labor:.2f}")
     print(f"Direct Expenses: ${expenses:.2f}")
